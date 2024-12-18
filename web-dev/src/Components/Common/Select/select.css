@@ -1,0 +1,30 @@
+.select-container {
+  display: block;
+  color: #4a5568;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.select-label {
+  display: flex;
+  font-weight: bold;
+}
+
+.select-field {
+  margin-top: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  appearance: none;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem 0.75rem;
+  color: #4a5568;
+  line-height: 1.25;
+  outline: none;
+}
+
+.select-field:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}

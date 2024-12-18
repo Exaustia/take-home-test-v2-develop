@@ -1,0 +1,31 @@
+.secondary-btn_not-allowed {
+  background-color: #f0f0f0;
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.secondary-btn_allowed {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.secondary-btn:hover {
+  color: black;
+  background-color: rgba(230, 230, 230, 0.692);
+}

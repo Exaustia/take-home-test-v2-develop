@@ -1,0 +1,33 @@
+.primary-btn_not-allowed {
+  background-color: #f0f0f0;
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.primary-btn_allowed {
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+}
+
+.primary-btn_secondary {
+  background-color: #1976d2;
+}
+
+.primary-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.primary-btn:hover {
+  background-color: #e6e6e6;
+}

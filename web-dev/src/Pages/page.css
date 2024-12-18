@@ -1,0 +1,24 @@
+/* For the test, i just made one CSS for the Pages (the best way for me is to make one folder for each Pages with the Ts / css  */
+
+.recipes-pages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.top-title {
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+  gap: 30px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .top-title {
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+}

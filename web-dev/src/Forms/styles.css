@@ -1,0 +1,20 @@
+#create-recipes-form {
+  padding: 10px;
+  max-width: 450px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-content__price {
+  width: 45%;
+}
+
+.input-content__select {
+  width: 45%;
+}

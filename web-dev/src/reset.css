@@ -1,0 +1,11 @@
+/* reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
